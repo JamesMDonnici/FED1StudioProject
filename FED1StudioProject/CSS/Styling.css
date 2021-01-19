@@ -1,0 +1,34 @@
+﻿body {
+    background-color:cornflowerblue
+}
+header {
+    background-color: aquamarine;
+}
+    
+main {
+    background-color: lightseagreen;
+}
+
+h1 {
+    color: indianred;
+    font-size: 28px;
+}
+
+h2 {
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+aside h2 {
+    background-color: teal;
+    color: black;
+}
+
+header h1 {
+    color: deeppink;
+}
+
+footer {
+    font-style: italic;
+    font-weight: bold;
+}
