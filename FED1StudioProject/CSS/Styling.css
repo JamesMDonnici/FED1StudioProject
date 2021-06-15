@@ -1,12 +1,28 @@
-﻿body {
-    background-color:cornflowerblue
+﻿
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
+
+/*
+    font-family: 'Hachi Maru Pop', cursive;
+*/
+
+/* Colors
+    #385905
+    #F2E530
+    #260101
+    #590303
+    #F22929
+*/
+body {
+    background-image: url(../Images/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 header {
     background-color: aquamarine;
 }
-    
+
 main {
-    background-color: lightseagreen;
+    background-color: rgba(89, 3, 3, .3);
 }
 
 h1 {
@@ -31,4 +47,54 @@ header h1 {
 footer {
     font-style: italic;
     font-weight: bold;
+}
+a {
+    color: teal;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+nav a {
+    color: lightcoral;
+}
+
+nav ul {
+    background-color: teal;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+    nav ul li {
+        display: inline-block;
+        padding: 20px;
+    }
+
+.selected {
+    background-color: lightsalmon;
+}
+
+    .selected a {
+        color: teal;
+    }
+
+nav li:hover {
+    background-color: lightsalmon;
+}
+
+nav a:hover {
+    color: teal;
+}
+
+/*
+    Fonts
+*/
+
+#fontgoogle1 {
+    font-family: 'Hachi Maru Pop', cursive;
+    color:rgb(242, 229, 48);
+}
+
+p, article {
+    font-family: fantasy;
+    color:rgb(242, 229, 48);
 }
